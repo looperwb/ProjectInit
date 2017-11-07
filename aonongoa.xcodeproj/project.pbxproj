@@ -7,21 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1EBC0EA3A17B71F857A888FC /* Pods_aonongoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5877DA48FAB46D935EFEFD4B /* Pods_aonongoa.framework */; };
 		DF57A6911FAFF665001234EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57A6901FAFF665001234EE /* AppDelegate.swift */; };
-		DF57A6931FAFF665001234EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57A6921FAFF665001234EE /* ViewController.swift */; };
 		DF57A6961FAFF665001234EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF57A6941FAFF665001234EE /* Main.storyboard */; };
 		DF57A6981FAFF665001234EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF57A6971FAFF665001234EE /* Assets.xcassets */; };
 		DF57A69B1FAFF665001234EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF57A6991FAFF665001234EE /* LaunchScreen.storyboard */; };
+		DF57A6AB1FAFFA82001234EE /* OAAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57A6AA1FAFFA82001234EE /* OAAPI.swift */; };
+		DF57A6AE1FAFFBCA001234EE /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57A6AD1FAFFBCA001234EE /* String+Ext.swift */; };
+		DF57A6B11FAFFD72001234EE /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57A6B01FAFFD72001234EE /* Url.swift */; };
+		DF57A6B31FAFFF2F001234EE /* Ruler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57A6B21FAFFF2F001234EE /* Ruler.swift */; };
+		DF57A6B51FAFFF67001234EE /* AppKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57A6B41FAFFF67001234EE /* AppKey.swift */; };
+		DF57A6B71FB00B7B001234EE /* GlobalVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF57A6B61FB00B7B001234EE /* GlobalVariable.swift */; };
+		DFE0178D1FB1539A00EE4358 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE0178C1FB1539900EE4358 /* Wage.swift */; };
+		DFE017931FB15FE000EE4358 /* QMUIConfigurationTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE017921FB15FE000EE4358 /* QMUIConfigurationTemplate.m */; };
+		DFEE242D1FB0307A00E9ACC3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE242C1FB0307A00E9ACC3 /* LoginViewController.swift */; };
+		DFEE242F1FB0381700E9ACC3 /* OANetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE242E1FB0381700E9ACC3 /* OANetwork.swift */; };
+		DFEE243D1FB0550D00E9ACC3 /* PostNm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE24391FB0550D00E9ACC3 /* PostNm.swift */; };
+		DFEE243E1FB0550D00E9ACC3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE243A1FB0550D00E9ACC3 /* User.swift */; };
+		DFEE243F1FB0550D00E9ACC3 /* LMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE243B1FB0550D00E9ACC3 /* LMenu.swift */; };
+		DFEE24401FB0550D00E9ACC3 /* PostNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFEE243C1FB0550D00E9ACC3 /* PostNum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5877DA48FAB46D935EFEFD4B /* Pods_aonongoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aonongoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A685E0CA7BB22CB40B89614 /* Pods-aonongoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aonongoa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aonongoa/Pods-aonongoa.debug.xcconfig"; sourceTree = "<group>"; };
 		DF57A68D1FAFF665001234EE /* aonongoa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aonongoa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF57A6901FAFF665001234EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF57A6921FAFF665001234EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DF57A6951FAFF665001234EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF57A6971FAFF665001234EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF57A69A1FAFF665001234EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF57A69C1FAFF665001234EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF57A6AA1FAFFA82001234EE /* OAAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAAPI.swift; sourceTree = "<group>"; };
+		DF57A6AD1FAFFBCA001234EE /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		DF57A6B01FAFFD72001234EE /* Url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Url.swift; sourceTree = "<group>"; };
+		DF57A6B21FAFFF2F001234EE /* Ruler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ruler.swift; sourceTree = "<group>"; };
+		DF57A6B41FAFFF67001234EE /* AppKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppKey.swift; sourceTree = "<group>"; };
+		DF57A6B61FB00B7B001234EE /* GlobalVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariable.swift; sourceTree = "<group>"; };
+		DFE0178C1FB1539900EE4358 /* Wage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
+		DFE017911FB15FE000EE4358 /* QMUIConfigurationTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplate.h; sourceTree = "<group>"; };
+		DFE017921FB15FE000EE4358 /* QMUIConfigurationTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplate.m; sourceTree = "<group>"; };
+		DFE017941FB160B700EE4358 /* Aonongoa-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Aonongoa-Bridging-Header.h"; sourceTree = "<group>"; };
+		DFEE242C1FB0307A00E9ACC3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DFEE242E1FB0381700E9ACC3 /* OANetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OANetwork.swift; sourceTree = "<group>"; };
+		DFEE24391FB0550D00E9ACC3 /* PostNm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostNm.swift; sourceTree = "<group>"; };
+		DFEE243A1FB0550D00E9ACC3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DFEE243B1FB0550D00E9ACC3 /* LMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMenu.swift; sourceTree = "<group>"; };
+		DFEE243C1FB0550D00E9ACC3 /* PostNum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostNum.swift; sourceTree = "<group>"; };
+		F24056588988A34E16F31E2A /* Pods-aonongoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aonongoa.release.xcconfig"; path = "Pods/Target Support Files/Pods-aonongoa/Pods-aonongoa.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +61,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EBC0EA3A17B71F857A888FC /* Pods_aonongoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5EB2A42D7ECC3CCD18E86C07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5877DA48FAB46D935EFEFD4B /* Pods_aonongoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DF57A6841FAFF665001234EE = {
 			isa = PBXGroup;
 			children = (
 				DF57A68F1FAFF665001234EE /* aonongoa */,
 				DF57A68E1FAFF665001234EE /* Products */,
+				E2900419C92CA0FF2BAB86EF /* Pods */,
+				5EB2A42D7ECC3CCD18E86C07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +97,143 @@
 		DF57A68F1FAFF665001234EE /* aonongoa */ = {
 			isa = PBXGroup;
 			children = (
-				DF57A6901FAFF665001234EE /* AppDelegate.swift */,
-				DF57A6921FAFF665001234EE /* ViewController.swift */,
-				DF57A6941FAFF665001234EE /* Main.storyboard */,
-				DF57A6971FAFF665001234EE /* Assets.xcassets */,
-				DF57A6991FAFF665001234EE /* LaunchScreen.storyboard */,
-				DF57A69C1FAFF665001234EE /* Info.plist */,
+				DFE017901FB15FE000EE4358 /* QMUIConfigurationTemplate */,
+				DF57A6AF1FAFFD01001234EE /* config */,
+				DF57A6A61FAFF891001234EE /* tools */,
+				DF57A6A51FAFF87F001234EE /* network */,
+				DF57A6A41FAFF873001234EE /* login */,
+				DF57A6A31FAFF839001234EE /* main */,
+				DF57A6A21FAFF812001234EE /* grpt(个人平台) */,
+				DF57A6AC1FAFFB94001234EE /* ext */,
+				DF57A6A91FAFF909001234EE /* resources */,
+				DF57A6A81FAFF8E8001234EE /* others */,
 			);
 			path = aonongoa;
+			sourceTree = "<group>";
+		};
+		DF57A6A21FAFF812001234EE /* grpt(个人平台) */ = {
+			isa = PBXGroup;
+			children = (
+				DFE0178A1FB1537A00EE4358 /* Wage */,
+			);
+			path = "grpt(个人平台)";
+			sourceTree = "<group>";
+		};
+		DF57A6A31FAFF839001234EE /* main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		DF57A6A41FAFF873001234EE /* login */ = {
+			isa = PBXGroup;
+			children = (
+				DFEE24301FB045D700E9ACC3 /* Models */,
+				DFEE242C1FB0307A00E9ACC3 /* LoginViewController.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		DF57A6A51FAFF87F001234EE /* network */ = {
+			isa = PBXGroup;
+			children = (
+				DF57A6AA1FAFFA82001234EE /* OAAPI.swift */,
+				DFEE242E1FB0381700E9ACC3 /* OANetwork.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		DF57A6A61FAFF891001234EE /* tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		DF57A6A81FAFF8E8001234EE /* others */ = {
+			isa = PBXGroup;
+			children = (
+				DF57A6941FAFF665001234EE /* Main.storyboard */,
+				DF57A6991FAFF665001234EE /* LaunchScreen.storyboard */,
+				DF57A6901FAFF665001234EE /* AppDelegate.swift */,
+				DF57A69C1FAFF665001234EE /* Info.plist */,
+				DFE017941FB160B700EE4358 /* Aonongoa-Bridging-Header.h */,
+			);
+			path = others;
+			sourceTree = "<group>";
+		};
+		DF57A6A91FAFF909001234EE /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF57A6971FAFF665001234EE /* Assets.xcassets */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		DF57A6AC1FAFFB94001234EE /* ext */ = {
+			isa = PBXGroup;
+			children = (
+				DF57A6AD1FAFFBCA001234EE /* String+Ext.swift */,
+			);
+			path = ext;
+			sourceTree = "<group>";
+		};
+		DF57A6AF1FAFFD01001234EE /* config */ = {
+			isa = PBXGroup;
+			children = (
+				DF57A6B01FAFFD72001234EE /* Url.swift */,
+				DF57A6B21FAFFF2F001234EE /* Ruler.swift */,
+				DF57A6B41FAFFF67001234EE /* AppKey.swift */,
+				DF57A6B61FB00B7B001234EE /* GlobalVariable.swift */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		DFE0178A1FB1537A00EE4358 /* Wage */ = {
+			isa = PBXGroup;
+			children = (
+				DFE0178B1FB1538200EE4358 /* Models */,
+			);
+			path = Wage;
+			sourceTree = "<group>";
+		};
+		DFE0178B1FB1538200EE4358 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DFE0178C1FB1539900EE4358 /* Wage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DFE017901FB15FE000EE4358 /* QMUIConfigurationTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				DFE017911FB15FE000EE4358 /* QMUIConfigurationTemplate.h */,
+				DFE017921FB15FE000EE4358 /* QMUIConfigurationTemplate.m */,
+			);
+			name = QMUIConfigurationTemplate;
+			path = Pods/QMUIKit/QMUIConfigurationTemplate;
+			sourceTree = SOURCE_ROOT;
+		};
+		DFEE24301FB045D700E9ACC3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DFEE243B1FB0550D00E9ACC3 /* LMenu.swift */,
+				DFEE24391FB0550D00E9ACC3 /* PostNm.swift */,
+				DFEE243C1FB0550D00E9ACC3 /* PostNum.swift */,
+				DFEE243A1FB0550D00E9ACC3 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E2900419C92CA0FF2BAB86EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A685E0CA7BB22CB40B89614 /* Pods-aonongoa.debug.xcconfig */,
+				F24056588988A34E16F31E2A /* Pods-aonongoa.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF57A69F1FAFF665001234EE /* Build configuration list for PBXNativeTarget "aonongoa" */;
 			buildPhases = (
+				1482BD4ED3C8F7C3439DC113 /* [CP] Check Pods Manifest.lock */,
 				DF57A6891FAFF665001234EE /* Sources */,
 				DF57A68A1FAFF665001234EE /* Frameworks */,
 				DF57A68B1FAFF665001234EE /* Resources */,
+				6C0EDF7F7C9EBD58B25D1A04 /* [CP] Embed Pods Frameworks */,
+				C81A7BA178CD4D646B9524C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +306,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1482BD4ED3C8F7C3439DC113 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C0EDF7F7C9EBD58B25D1A04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aonongoa/Pods-aonongoa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C81A7BA178CD4D646B9524C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aonongoa/Pods-aonongoa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF57A6891FAFF665001234EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF57A6931FAFF665001234EE /* ViewController.swift in Sources */,
+				DF57A6B71FB00B7B001234EE /* GlobalVariable.swift in Sources */,
+				DF57A6AE1FAFFBCA001234EE /* String+Ext.swift in Sources */,
+				DFE017931FB15FE000EE4358 /* QMUIConfigurationTemplate.m in Sources */,
+				DF57A6B51FAFFF67001234EE /* AppKey.swift in Sources */,
+				DF57A6AB1FAFFA82001234EE /* OAAPI.swift in Sources */,
+				DFEE242D1FB0307A00E9ACC3 /* LoginViewController.swift in Sources */,
+				DFEE242F1FB0381700E9ACC3 /* OANetwork.swift in Sources */,
+				DFEE243D1FB0550D00E9ACC3 /* PostNm.swift in Sources */,
+				DFE0178D1FB1539A00EE4358 /* Wage.swift in Sources */,
+				DFEE243F1FB0550D00E9ACC3 /* LMenu.swift in Sources */,
 				DF57A6911FAFF665001234EE /* AppDelegate.swift in Sources */,
+				DF57A6B31FAFFF2F001234EE /* Ruler.swift in Sources */,
+				DF57A6B11FAFFD72001234EE /* Url.swift in Sources */,
+				DFEE243E1FB0550D00E9ACC3 /* User.swift in Sources */,
+				DFEE24401FB0550D00E9ACC3 /* PostNum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,31 +508,39 @@
 		};
 		DF57A6A01FAFF665001234EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A685E0CA7BB22CB40B89614 /* Pods-aonongoa.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 492TRLHR4N;
-				INFOPLIST_FILE = aonongoa/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/aonongoa/others/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aonong.aonongoa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/others/Aonongoa-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		DF57A6A11FAFF665001234EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F24056588988A34E16F31E2A /* Pods-aonongoa.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 492TRLHR4N;
-				INFOPLIST_FILE = aonongoa/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/aonongoa/others/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aonong.aonongoa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/others/Aonongoa-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
